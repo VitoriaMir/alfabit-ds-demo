@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Alfabit Design System - Demo Application
 
-## Getting Started
+Uma aplicação de demonstração que utiliza o **Alfabit Design System** para criar interfaces modernas e consistentes.
 
-First, run the development server:
+## 📋 Sobre o Projeto
 
+Este projeto complementa o [alfabit-design-system](https://github.com/VitoriaMir/alfabit-design-system) oferecendo exemplos práticos de implementação dos componentes em uma aplicação real. 
+
+### ✨ Funcionalidades Implementadas
+
+- **🔐 Página de Login** - Interface moderna com validação e toggle de senha
+- **📝 Cadastro Multi-etapas** - Fluxo completo em 3 etapas com validações
+- **🎨 Design System Integration** - Utilização dos componentes do Alfabit DS
+- **📱 Layout Responsivo** - Adaptável para diferentes tamanhos de tela
+- **🌟 Glassmorphism UI** - Efeitos visuais modernos com blur e transparência
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Next.js 14** - Framework React para produção
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Framework de CSS utilitário
+- **Alfabit Design System** - Biblioteca de componentes customizada
+
+## 🚀 Como Executar
+
+1. **Clone o repositório:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/VitoriaMir/alfabit-ds-demo.git
+cd alfabit-ds-demo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Instale as dependências:**
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Execute o projeto:**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Acesse no navegador:**
+```
+http://localhost:3000
+```
 
-## Learn More
+## 📁 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── page.tsx          # Página de Login
+│   ├── cadastro/
+│   │   └── page.tsx      # Página de Cadastro (3 etapas)
+│   ├── layout.tsx        # Layout principal
+│   └── globals.css       # Estilos globais
+└── components/           # Componentes reutilizáveis (futuros)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto utiliza os componentes do **Alfabit Design System**, incluindo:
 
-## Deploy on Vercel
+- `Typography` - Componente de tipografia com variações de tamanho
+- Paleta de cores consistente
+- Espaçamentos padronizados
+- Componentes de formulário
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔗 Páginas Disponíveis
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **`/`** - Login
+- **`/cadastro`** - Cadastro em 3 etapas
+
+## 📸 Screenshots
+
+### Página de Login
+- Interface limpa e moderna
+- Validação de formulário
+- Toggle para visualização de senha
+- Link para cadastro
+
+### Cadastro Multi-etapas
+- **Etapa 1:** Dados básicos (Nome, Email, Senha)
+- **Etapa 2:** Informações complementares (Área de atuação, Website, Preferências)
+- **Etapa 3:** Confirmação de sucesso com ilustração
+
+## 🤝 Contribuindo
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 🔗 Links Relacionados
+
+- [Alfabit Design System](https://github.com/VitoriaMir/alfabit-design-system) - Biblioteca de componentes
+- [Next.js Documentation](https://nextjs.org/docs) - Framework utilizado
+- [Tailwind CSS](https://tailwindcss.com/) - Framework de CSS
+
+---
+
+Desenvolvido com ❤️ utilizando o **Alfabit Design System**
