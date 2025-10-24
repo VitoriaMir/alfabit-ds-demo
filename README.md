@@ -1,5 +1,10 @@
 # 🚀 Alfabit Design System - Demo Application
 
+![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+
 Uma aplicação de demonstração que utiliza o **Alfabit Design System** para criar interfaces modernas e consistentes.
 
 ## 📋 Sobre o Projeto
@@ -94,7 +99,7 @@ Este projeto utiliza os componentes do **Alfabit Design System**, incluindo:
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é open source e está disponível para uso educacional e demonstração.
 
 ## 🔗 Links Relacionados
 
